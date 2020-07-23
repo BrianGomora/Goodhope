@@ -1,0 +1,258 @@
+body {
+	background-image: url('me2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	line-height: 1.7;
+	font-weight: 400;
+	font-size: 1rem;
+	}
+
+/* #Jumbo {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 10s;
+
+	animation-name: animate;
+	animation-direction: all;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease   ;
+     }
+@keyframes animate{
+	0%{
+		background-image: url(me2.jpg);
+	}20%{
+		background-image: url(me4.jpg);
+	}40%{
+		background-image: url(me5.jpg);
+	}60%{
+		background-image: url(me6.jpg);
+	}80%{
+		background-image: url(me7.jpg);
+	}100%{
+		background-image: url(me8.jpg);
+	}
+} */
+html{
+	height: 100%;
+}
+
+#content{
+	text-align: center;
+	padding: 25%;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px green,
+				 0px 18px 23px blue,
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	/* position: fixed; */
+}
+.collapse{
+	color: red;
+	font-weight: 700;
+	font-size: 14;
+}
+h1, h3{
+	color: white;
+}
+h1{
+	font-weight: 700;
+	font-size: 4.0em;
+	font-family: Indie Flower;
+}
+hr{
+	width:500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.footer{
+	padding: 5px;
+	font-size: 20;
+	background: grey;
+}
+#bottompage{
+	color: white;
+}
+#map{
+	color: lightblue;
+}
+#parag{
+	font-size: 20;
+	color: white;
+	text-align: justify;
+}
+#seealso{
+	color: lightblue;
+}
+#conna{
+	text-align: center;
+}
+#imag{
+	width: 100%;
+}
+#abstract{
+	text-align: justify;
+	color: white;
+	font-size: 24;
+	padding: 0, 20, 0, 20;
+}
+#imaging{
+	margin-top: 20px;
+}
+.text{
+	text-align: justify;
+	background-color: white;
+}
+#pic{
+	height: 300px;
+	width: 100%;
+}
+#jumbo{
+	color: green;
+	text-align: center;
+}
+#jumbo2{
+	color: green;
+	text-align: left;
+}
+#vidzexplanation{
+	font-size: 20;
+	text-align: justify;
+}
+/* label {
+	font-weight: bold;
+	font-size: 16px;
+  }
+  
+  #submit_button {
+	background-color: #B22222;
+	height: 30px;
+	width: 20%;
+	color: #FFFFFF;
+	font-weight: bold;
+  }
+  
+  input, textarea {
+	background-color: #D3D3D3;
+	color: #2F4F4F;
+	width: 250px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 2px 2px #696969;
+  } */
+#contactpage{
+	text-align: center;
+	text-decoration-color: #B22222;
+	padding-bottom: 5%;
+}
+/* #jumbot{
+	background-color: rgb(127, 255, 155);
+} */
+#mission{
+	text-align: center;
+	text-decoration-color: chocolate;
+}
+#missiontext{
+	text-align: center;
+	text-align: justify;
+	font-size: 18;
+}
+.site-section{
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background-attachment: fixed;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	box-sizing: border-box;
+	display: block;
+	height: 138.4px;
+	line-height: 27.2px;
+	opacity: 1;
+	text-align: left;
+	text-size-adjust: 100%;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	transition-duration: 0.8s;
+	transition-property: opacity, transform;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+#container{
+	background-color:rgba(173, 171, 171, 0.336);
+	background-size: 100%;
+	box-sizing: border-box;
+	color: rgb(14, 30, 121);
+	display: block;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 27.2px;
+	text-align: left;
+	text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+#contantaddress{
+	font-weight: bold;
+	font-size: 20;
+	color: black;
+}
+#contactpage{
+	color: black;
+}
+#vidz2{
+	border-top: 5%;
+}
+#newstext{
+	text-align: justify;
+}
+#mission{
+	color: red;
+}
+#violence{
+	width: 80%;
+	height: 600px;
+	padding-left: 20%;
+}
+#violencepic{
+	text-align: center;
+	font-weight: 800;
+	font-size: 20px;
+	color: red;
+}
+#theorganization{
+	text-align: center;
+}
+.intro-engage> div:nth-of-type(1){
+	background-color: #f8f8f8;
+}
+.intro-engage>div{
+	padding:50px;
+	position: relative;
+}
+*, :after, :before{
+	box-sizing: border-box;
+}
+div{
+	display: block;
+}
+#goals{
+	background-color: #f8f8f8;
+	box-sizing: border-box;
+	display: block;
+	line-height: 27.2px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	text-align: left;
+	text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
