@@ -191,7 +191,6 @@ hr{
 	box-sizing: border-box;
 	color: rgb(14, 30, 121);
 	display: flex;
-	align-items: center;
 	font-size: 18px;
 	font-weight: 900;
 	line-height: 27.2px;
