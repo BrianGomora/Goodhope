@@ -185,11 +185,13 @@ hr{
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
 }
 #container{
-	background-color:rgba(173, 171, 171, 0.336);
-	background-size: 100%;
+	background-image:linear-gradient, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url('me2.jpg');
+	background-size: cover;
+	background-position: center;
 	box-sizing: border-box;
 	color: rgb(14, 30, 121);
-	display: block;
+	display: flex;
+	align-items: center;
 	font-size: 18px;
 	font-weight: 900;
 	line-height: 27.2px;
