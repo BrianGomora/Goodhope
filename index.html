@@ -1,54 +1,111 @@
 <DOCTYPE html>
 <html>
 <head>
-	<title>Empowerd Initiatiive</title>
+	<title>Empowerd Initiatiive gallery</title>
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="app.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Empowered Initiative</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="About.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="News.html">News</a>
+<body id="index">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="Index.html">Empowered Initiative</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home <span class="sr-only"></span></a>
         </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-	<div class="container">
-		<div class ="row">
-			<div class="col-lg-12">
-				<div id="content">
-				<h1>Empowered Initiative</h1>
-				<h3>Empowering women to use their handful skills</h3>
-        <hr>
-        <a href="About.html">
-        <button class="btn btn-primary btn-lg" type ="button"><i class="fa fa-pagelines" aria-hidden="true"></i>Get Started</button>
-        </a>
-			</div>
-			</div>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="News.html">News</a>
+          </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-	</div>
+  </nav>
+<header id="carousel">
+    <div id="indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#indicators" data-slide-to="0" class="active"></li>
+            <li data-target="#indicators" data-slide-to="1"></li>
+            <li data-target="#indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('me2.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="lead1">The group of vegetables we wish to grow.</p>
+                </div>
+            </div> <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('me1.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="lead1">Our poultry farming dream</p>
+                </div>
+            </div> <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('Evern8.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="lead1">The vegetables we had currently</p>
+                </div>
+            </div>
+        </div> <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#indicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    </div>
+</header>
+<!-- Page Content -->
+<section class="py-5">
+    <div class="container">
+        <h1 class="font-weight-light">Image Slider Two</h1>
+        <p class="lead">WHO ARE WE?</p>
+        <div class="d-block d-md-flex intro-engage" id="goals">
+          <div class="">
+            <h2>Mission</h2>
+            <p>Empowering women through the use of their handful skills in doing poultry and vegetable farming so that they can be financially independent.</p>
+          </div>
+          <div>
+            <h2>Vision</h2>
+            <p>To help reduce the soaring numbers of GBV cases in Goodhope by 20% by the end of 2021.</p>
+          </div>
+          <div>
+            <h2>Target</h2>
+            <p>We are currently targetting the women in Goodhope. This is a community which has been vastly affected by GBV during this lockdown.</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <p id="fact">Do you know that 1 in 3 women in Zimbabwe have been sexually assalted by the age of 18?</p>
+      </div>
+    </div>
+      <div class ="row">
+        <div class="col-lg-12">
+          <div id="content">
+          <hr>
+          <a href="About.html">
+          <button class="btn btn-primary btn-lg" type ="button"><i class="fa fa-pagelines" aria-hidden="true"></i>Get Started</button>
+          </a>
+        </div>
+        </div>
+      </div>
+</section>
+<script>
+    $(function() {
+        $(document).scroll(function() {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+</script>
 <!-- Footer -->
 <footer class="page-footer font-small indigo">
   <div class="footer">
@@ -83,7 +140,7 @@
             <a href="About.html" id="bottompage">About Us</a>
           </li>
           <li>
-            <a href="index.html" id="bottompage">Home</a>
+            <a href="Index.html" id="bottompage">Home</a>
           </li>
           <li>
             <a href="News.html" id="bottompage">News</a>
@@ -118,13 +175,13 @@
   <div class="row">
     <div class ="col-lg-3">
         <h5 id="subcontacts">Street Address</h6>
-                <p id="parag">14 985 Rusike Road</p>
-                <p id="parag">Goodhope(<a href="https://satellites.pro/Google_plan/Good_Hope_map.Zimbabwe" id="map">See the map here</a>)</p>
+          <p id="parag">14 985 Rusike Road</p>
+          <p id="parag">Goodhope(<a href="https://satellites.pro/Google_plan/Good_Hope_map.Zimbabwe" id="map">See the map here</a>)</p>
    </div>
     <div class="col-lg-3">
       <h5 id="subcontacts">Postal Address</h5>
-          <p id="parag">14 985 Rusike Road</p>
-          <p id="parag">Goodhope</p>
+      <p id="parag">14 985 Rusike Road</p>
+      <p id="parag">Goodhope</p>
     </div>
     <div class="col-lg-3">
       <h5 id="subcontacts">Phone and Email</h5>
